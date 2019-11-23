@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_ChMnd">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="400.0" prefWidth="304.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <TextField fx:id="input" text="Enter Meme Text" />
+                     </children>
+                  </VBox>
+                  <Button mnemonicParsing="false" onAction="#PressButton" text="Save" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <StackPane prefHeight="150.0" prefWidth="400.0">
+         <children>
+            <ImageView fitHeight="251.0" fitWidth="337.0">
+               <image>
+                  <Image url="@Roan_change-my-mind.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="view" alignment="TOP_LEFT" prefHeight="64.0" prefWidth="144.0" rotate="-6.0" text="asldjfksdjfksjfakf laksjdfsklajfsakfjs alsjflksajfs alskjflasfjlk  lksajdflkadjsf lasdjflasjf lajsflasjf lakjsdflkajf lkajsdflkjasf sldkfjalsjflska alsdjflasjfsalk laskfjlaskfjlask alskjdfalksjf laskdfjalksf" textOverrun="CLIP" wrapText="true">
+               <StackPane.margin>
+                  <Insets left="100.0" top="112.0" />
+               </StackPane.margin>
+            </Label>
+         </children>
+      </StackPane>
+   </children>
+</HBox>
